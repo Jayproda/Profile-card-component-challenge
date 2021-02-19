@@ -1,0 +1,103 @@
+body {
+    font-family: 'Kumbh Sans', 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: url("images/bg-pattern-bottom.svg"), url("images/bg-pattern-top.svg");
+    background-position: right, left;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0 auto;
+    color: hsl(229, 23%, 23%);
+}
+
+.container {
+    background: #fff;
+    width: 350px;
+    text-align: center;
+    margin: 15% auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 100px 80px rgb(0 0 0 / 12%);
+}
+
+.top-container {
+    background-image: url("images/bg-pattern-card.svg");
+    height: 130px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom-container {
+    width: 100%;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+
+.myself {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    display: block;
+    position: absolute;
+    right: 120px;
+    top: 75px;
+    width: 102px;
+    height: 102px;
+}
+
+span,
+.city {
+    color: hsl(227, 10%, 46%);
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 23px;
+}
+
+span.stats {
+    font-size: 10px;
+}
+
+h4 {
+    margin-bottom: 7px;
+}
+
+.age {
+    font-weight: 100;
+}
+
+p {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.left-align,
+.middle-align,
+.right-align {
+    width: 100px;
+    display: inline-block;
+}
+
+.lineThrough {
+    background: hsl(227, 10%, 46%);
+    opacity: 0.2;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    clear: left;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* widths: - Mobile: 375px - Desktop: 1440px 
+
+### Primary Colours
+Dark cyan: hsl(185, 75%, 39%) 
+Very dark desaturated blue: hsl(229, 23%, 23%) 
+Dark grayish blue: hsl(227, 10%, 46%) 
+### Neutral colours
+Dark gray: hsl(0, 0%, 59%) 
+### Font- Weights: 400, 700 */
